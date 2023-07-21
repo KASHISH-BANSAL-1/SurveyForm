@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    transition: 2s;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+h2{
+    color: #ccffff;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1501696461415-6bd6660c6742?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+}
+.heading{
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+    margin-top: 100px;
+}
+.b{
+    font-size: 3rem;
+}
+.a{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.c{
+    margin: auto;
+    width: 80%;
+}
+form{
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+form #z{
+    width: 90%;
+    height: 1.7rem;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 4px;
+}
+#opt select{
+    width: 90%;
+    height: 1.7rem;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 4px;
+    
+}
+.e select{
+
+    width: 90%;
+    height: 1.7rem;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 4px;
+}
+.d{
+    margin-top: 10px;
+
+}
+textarea{
+    position: relative;
+    bottom: 20px;
+    width: 57vw;
+    height: 135px;
+}
+button{
+    
+    width: 90%;
+    height: 1.7rem;
+    border: 0;
+    border-radius: 4px;
+    top: 10px;
+    background-color: #568e8e;
+    color: rgb(255, 255, 255);
+}
